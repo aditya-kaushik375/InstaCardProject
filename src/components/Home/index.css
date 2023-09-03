@@ -1,0 +1,36 @@
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.home-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.btn {
+  background-color: orangered;
+  color: #fff;
+  border-radius: 1rem;
+  border: 0;
+  padding: 10px;
+  width: 100px;
+}
+
+.home-img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+@media screen and (max-width: 768px) {
+  .details {
+    flex-direction: column-reverse;
+  }
+  .home-img {
+    height: 300px;
+    width: 300px;
+  }
+}

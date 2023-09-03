@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.about-details {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.btn {
+  background-color: orangered;
+  color: #fff;
+  border-radius: 1rem;
+  border: 0;
+  padding: 10px;
+  width: 100px;
+}
+.about-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.about-page-details {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width:768px){
+    .about-details{
+        flex-direction: column;
+    }
+}

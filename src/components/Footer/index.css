@@ -1,0 +1,20 @@
+.footer-content {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footer-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-list {
+    flex-direction: column;
+  }
+  .footer-content {
+    text-align: left;
+  }
+}

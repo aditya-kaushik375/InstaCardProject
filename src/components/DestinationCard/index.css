@@ -1,0 +1,51 @@
+.destinations-btn {
+  position: absolute;
+  top: 160px;
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+}
+.rating {
+  border: 0;
+  border-radius: 1rem;
+  background-color: #fff;
+  color: #000;
+  padding: 5px;
+  width: 60px;
+  margin-left: 5px;
+}
+.exclusive {
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  border-radius: 1rem;
+  padding: 5px;
+  width: 100px;
+}
+.destination-card {
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: lightgrey;
+  position: relative;
+  margin: 10px;
+  padding: 5px;
+}
+.destination-image-card {
+  height: 200px;
+  width: 250px;
+  background-size: cover;
+  border-radius: 10px;
+}
+.dot-btn {
+  border: 0;
+  border-radius: 1rem;
+  background-color: lightgray;
+  color: #000;
+  height: 30px;
+  width: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 250px;
+  right: 5px;
+}
